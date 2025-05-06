@@ -48,4 +48,5 @@ ENTRYPOINT ["/runner.sh"]
 
 # Set the default command to execute
 # when creating a new container
+CMD ["chmod -R 777 /var/lib/nginx"] 
 CMD ["nginx"]
